@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppAutoUpdTest.Android", "AppAutoUpdTest\AppAutoUpdTest.Android\AppAutoUpdTest.Android.csproj", "{162D7511-D99F-4EE3-914A-C1EF546D8021}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AppAutoUpdTest", "AppAutoUpdTest\AppAutoUpdTest\AppAutoUpdTest.shproj", "{230ED3C5-1873-4BC1-8705-C914C2AEF03C}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AppAutoUpdTest\AppAutoUpdTest\AppAutoUpdTest.projitems*{162d7511-d99f-4ee3-914a-c1ef546d8021}*SharedItemsImports = 4
+		AppAutoUpdTest\AppAutoUpdTest\AppAutoUpdTest.projitems*{230ed3c5-1873-4bc1-8705-c914c2aef03c}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{162D7511-D99F-4EE3-914A-C1EF546D8021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162D7511-D99F-4EE3-914A-C1EF546D8021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162D7511-D99F-4EE3-914A-C1EF546D8021}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{162D7511-D99F-4EE3-914A-C1EF546D8021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162D7511-D99F-4EE3-914A-C1EF546D8021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162D7511-D99F-4EE3-914A-C1EF546D8021}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FBC6862-4434-45C7-B3DE-82C65E667E13}
+	EndGlobalSection
+EndGlobal
